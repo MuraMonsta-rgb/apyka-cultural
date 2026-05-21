@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Pueblos Indígenas - Apyka
+    </title>
+
+    <link rel="stylesheet"
+        href="css/estilos.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <a href="inicio.html">
+            <img src="images/logo.png"
+                alt="Logo de Apyka">
+        </a>
+
+    </div>
+
+    <button class="menu-toggle"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="menu-principal">
+
+        ☰
+
+    </button>
+
+    <nav class="menu-principal"
+        id="menu-principal">
+
+        <ul>
+
+            <li>
+                <a href="inicio.html"
+                    id="navInicio">
+
+                    Inicio
+
+                </a>
+            </li>
+
+            <li>
+                <a href="cultura.html"
+                    id="navCultura">
+
+                    Cultura
+
+                </a>
+            </li>
+
+            <li>
+                <a href="pueblos.html"
+                    class="active"
+                    id="navPueblos">
+
+                    Pueblos indígenas
+
+                </a>
+            </li>
+
+            <li>
+                <a href="artesanias.html"
+                    id="navArtesanias">
+
+                    Artesanías
+
+                </a>
+            </li>
+
+            <li>
+                <a href="contacto.html"
+                    id="navContacto">
+
+                    Contacto
+
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <div class="idioma-selector-container">
+
+        <button class="btn-mundo"
+            id="btnIdioma"
+            aria-label="Seleccionar idioma">
+
+            <img src="images/world-icon.png"
+                alt=""
+                class="icono-mundo">
+
+            <span class="idioma-actual"
+                id="idiomaActual">
+
+                ES
+
+            </span>
+
+        </button>
+
+        <ul class="lista-idiomas">
+
+            <li>
+                <a href="pueblos.html?lang=es">
+                    Español (ES)
+                </a>
+            </li>
+
+            <li>
+                <a href="pueblos.html?lang=en">
+                    English (EN)
+                </a>
+            </li>
+
+            <li>
+                <a href="pueblos.html?lang=gn">
+                    Guaraní (GN)
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</header>
+
+<!-- ========================= -->
+<!-- PUEBLOS INDÍGENAS -->
+<!-- ========================= -->
+
+<main>
+
+    <section class="hero-container hero-pueblos">
+
+        <div class="hero-content">
+
+            <h1 id="titulopueblos">
+                PUEBLOS INDÍGENAS
+            </h1>
+
+            <a href="inicio.html"
+                class="btn-ver-mas"
+                id="btnVolver"
+                aria-label="Volver a la página principal">
+
+                Ver más
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTRODUCCIÓN -->
+
+    <section class="intro-text">
+
+        <div class=""></div>
+
+        <p id="pueblosIntro1">
+            Los pueblos indígenas forman parte esencial
+            de la identidad histórica, cultural y social
+            del Paraguay.
+        </p>
+
+        <p id="pueblosIntro2">
+            Sus conocimientos ancestrales, lenguas,
+            tradiciones y relación con la naturaleza
+            representan un patrimonio invaluable
+            para América Latina.
+        </p>
+
+    </section>
+
+
+    <!-- INFORMACIÓN -->
+
+    <section class="info-pueblos"
+        id="informacion">
+
+        <article class="bloque-info">
+
+            <div class="texto-info">
+
+                <h2 id="diversidadTitulo">
+                    Diversidad Cultural
+                </h2>
+
+                <p id="diversidadP1">
+                    Paraguay alberga diferentes pueblos
+                    indígenas distribuidos en distintas
+                    regiones del país, especialmente
+                    en el Chaco y la Región Oriental.
+                </p>
+
+                <p id="diversidadP2">
+                    Cada comunidad conserva expresiones
+                    culturales propias relacionadas con
+                    su lengua, espiritualidad, música,
+                    medicina tradicional y formas de vida.
+                </p>
+
+            </div>
+
+            <div class="imagen-info">
+
+                <img src="images/pueblos-1.jpg"
+                    alt="Comunidad indígena paraguaya">
+
+            </div>
+
+        </article>
+
+
+        <article class="bloque-info invertido">
+
+            <div class="texto-info">
+
+                <h2 id="naturalezaTitulo">
+                    Relación con la Naturaleza
+                </h2>
+
+                <p id="naturalezaP">
+                    Muchas comunidades indígenas mantienen
+                    una profunda conexión espiritual con
+                    la naturaleza y consideran el territorio
+                    como parte fundamental de su identidad.
+                </p>
+
+                <ul>
+
+                    <li id="naturalezaLi1">Protección de bosques y ríos</li>
+                    <li id="naturalezaLi2">Uso ancestral de plantas medicinales</li>
+                    <li id="naturalezaLi3">Conocimiento ecológico tradicional</li>
+                    <li id="naturalezaLi4">Respeto por los ciclos naturales</li>
+
+                </ul>
+
+            </div>
+
+            <div class="imagen-info">
+
+                <img src="images/pueblos-2.jpg"
+                    alt="Naturaleza y cultura indígena">
+
+            </div>
+
+        </article>
+
+
+        <article class="bloque-info">
+
+            <div class="texto-info">
+
+                <h2 id="lenguasTitulo">
+                    Lenguas y Tradiciones
+                </h2>
+
+                <p id="lenguasP1">
+                    Las lenguas indígenas representan una
+                    parte fundamental de la diversidad
+                    cultural paraguaya.
+                </p>
+
+                <p id="lenguasP2">
+                    El idioma guaraní, hablado ampliamente
+                    en Paraguay, tiene origen indígena y
+                    constituye uno de los principales
+                    símbolos culturales del país.
+                </p>
+
+            </div>
+
+            <div class="imagen-info">
+
+                <img src="images/pueblos-3.jpg"
+                    alt="Lenguas indígenas">
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- FRASE INTERMEDIA -->
+
+    <section class="frase-intermedia">
+
+        <h2 id="fraseIntermedia">
+            “La cultura indígena no pertenece al pasado,
+            forma parte viva de la identidad paraguaya.”
+        </h2>
+
+    </section>
+
+
+    <!-- PUEBLOS DESTACADOS -->
+
+    <section class="pueblos-destacados">
+
+        <h2 id="pueblosDestacadosTitulo">
+            Pueblos destacados
+        </h2>
+
+        <div class="grid-pueblos">
+
+            <article class="card-pueblo">
+
+                <img src="images/guarani-3.jpg"
+                    alt="Pueblo Guaraní">
+
+                <div class="contenido-pueblo">
+
+                    <span id="guaraniRegion" class="region">
+                        Región Oriental
+                    </span>
+
+                    <h3>
+                        Guaraní
+                    </h3>
+
+                    <p id="guaraniDesc">
+                        Uno de los pueblos más representativos
+                        del Paraguay y origen del idioma guaraní.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card-pueblo">
+
+                <img src="images/enxet.jpg"
+                    alt="Pueblo Enxet">
+
+                <div class="contenido-pueblo">
+
+                    <span id="enxetRegion" class="region">
+                        Chaco Paraguayo
+                    </span>
+
+                    <h3>
+                        Enxet
+                    </h3>
+
+                    <p id="enxetDesc">
+                        Comunidad indígena reconocida por
+                        su relación espiritual con la naturaleza.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card-pueblo">
+
+                <img src="images/ayoreo.jpg"
+                    alt="Pueblo Ayoreo">
+
+                <div class="contenido-pueblo">
+
+                    <span id="ayoreoRegion" class="region">
+                        Alto Paraguay
+                    </span>
+
+                    <h3>
+                        Ayoreo
+                    </h3>
+
+                    <p id="ayoreoDesc">
+                        Pueblo originario del Chaco con
+                        importantes tradiciones ancestrales.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- DATOS -->
+
+    <section class="datos-culturales">
+
+        <h2 id="datosTitulo">
+            Datos culturales
+        </h2>
+
+        <div class="grid-datos">
+
+            <article class="dato-box">
+
+                <h3>19</h3>
+
+                <p id="dato1">
+                    Pueblos indígenas reconocidos oficialmente.
+                </p>
+
+            </article>
+
+            <article class="dato-box">
+
+                <h3>5</h3>
+
+                <p id="dato2">
+                    Familias lingüísticas principales.
+                </p>
+
+            </article>
+
+            <article class="dato-box">
+
+                <h3>2</h3>
+
+                <p id="dato3">
+                    Lenguas oficiales del Paraguay.
+                </p>
+
+            </article>
+
+            <article class="dato-box">
+
+                <h3>100+</h3>
+
+                <p id="dato4">
+                    Años de preservación cultural ancestral.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALERÍA -->
+
+    <section class="galeria-indigena">
+
+    <h2 id="galeriaTitulo">
+        Galería cultural
+    </h2>
+
+    <div class="grid-galeria">
+
+        <img id="galeriaImg1"
+             src="images/galeria-1.jpg"
+             alt="Cultura indígena">
+
+        <img id="galeriaImg2"
+             src="images/galeria-2.jpg"
+             alt="Comunidad indígena">
+
+        <img id="galeriaImg3"
+             src="images/galeria-3.jpg"
+             alt="Tradiciones indígenas">
+
+        <img id="galeriaImg4"
+             src="images/galeria-4.jpg"
+             alt="Naturaleza y pueblos">
+
+    </div>
+
+</section>
+
+    <!-- FRASE FINAL -->
+
+    <section class="frase-cultural">
+
+    <h2 id="fraseFinalTitulo">
+        “Preservar las culturas indígenas
+        significa preservar la memoria
+        y la identidad de nuestros pueblos.”
+    </h2>
+
+    <p id="fraseFinalTexto">
+        La diversidad cultural fortalece el respeto,
+        la inclusión y el reconocimiento de las
+        comunidades originarias como parte esencial
+        del patrimonio histórico y humano del Paraguay.
+    </p>
+
+</section>
+
+
+</main>
+
+
+<section class="pre-footer">
+
+    <div class="pre-footer-logo">
+
+        <img src="images/Logo-2.png"
+            alt="Logo Apyka">
+
+        <h2>
+            Apyka
+        </h2>
+
+    </div>
+
+
+    <div class="pre-footer-redes">
+
+        <a href="#"
+            aria-label="Facebook">
+
+            <img src="images/facebook.png"
+                alt="Facebook">
+
+        </a>
+
+        <a href="#"
+            aria-label="Instagram">
+
+            <img src="images/instagram.png"
+                alt="Instagram">
+
+        </a>
+
+        <a href="#"
+            aria-label="YouTube">
+
+            <img src="images/youtube.png"
+                alt="YouTube">
+
+        </a>
+
+    </div>
+
+
+    <p class="pre-footer-copy">
+        Copyright © Apyka Cultural 2026
+    </p>
+
+</section>
+
+
+<footer class="main-footer">
+
+    <div class="footer-left">
+
+        <button class="btn-institucional"
+            id="btnInstitucional">
+
+            Información institucional
+
+        </button>
+
+    </div>
+
+    <div class="footer-right">
+
+        <a href="mailto:contacto@apyka.com"
+            class="contacto-link"
+            aria-label="Enviar correo">
+
+            <img src="images/mail-icon.png"
+                alt="Contacto"
+                class="mail-icon">
+
+        </a>
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
