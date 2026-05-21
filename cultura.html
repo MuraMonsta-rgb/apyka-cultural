@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Guaraní - Apyka</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/Logo.png" alt="Logo Apyka">
+        </a>
+    </div>
+
+    <button class="menu-toggle"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="menu-principal">
+        ☰
+    </button>
+
+    <nav class="menu-principal" id="menu-principal">
+
+        <ul>
+            <li><a href="index.html" id="navInicio">Inicio</a></li>
+
+            <li>
+                <a href="cultura.html"
+                    class="active"
+                    id="navCultura">
+                    Cultura
+                </a>
+            </li>
+            <li><a href="pueblos.html" id="navPueblos">Pueblos indígenas</a></li>
+            <li><a href="artesanias.html" id="navArtesanias">Artesanías</a></li>
+            <li><a href="contacto.html" id="navContacto">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="idioma-selector-container">
+
+        <button class="btn-mundo"
+            id="btnIdioma"
+            aria-label="Seleccionar idioma del sitio">
+            <img src="images/world-icon.png" alt="" class="icono-mundo">
+            <span class="idioma-actual" id="idiomaActual">
+                ES
+            </span>
+        </button>
+        <ul class="lista-idiomas" id="menuIdiomas">
+            <li><a href="cultura.html?lang=es">Español (ES)</a></li>
+            <li><a href="cultura.html?lang=en">English (EN)</a></li>
+            <li><a href="cultura.html?lang=gn">Guaraní (GN)</a></li>
+        </ul>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="hero-container hero-cultura">
+
+        <div class="hero-content">
+
+            <h1 id="tituloCultura">
+                CULTURA GUARANÍ
+            </h1>
+
+            <a href="index.html"
+                class="btn-ver-mas"
+                id="btnVolver"
+                aria-label="Volver a la página principal">
+
+                Ver más
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="intro-text">
+
+        <p id="textoCultura1">
+            La cultura guaraní es uno de los pilares de la identidad paraguaya.
+        </p>
+
+        <p id="textoCultura2">
+            Su lengua, tradiciones y cosmovisión forman parte activa de la vida cotidiana del país.
+        </p>
+
+        <p id="textoCultura3">
+            Esta sección presenta su legado histórico y su presencia contemporánea, promoviendo el reconocimiento y respeto por su patrimonio cultural.
+        </p>
+
+    </section>
+
+    <section class="galeria-cultura">
+
+        <article class="tarjeta-guarani">
+
+            <div class="imagen-contenedor">
+                <img src="images/historia.jpg"
+                    alt="Representación histórica del pueblo guaraní">
+            </div>
+
+            <div class="info-tarjeta">
+
+                <h3 id="tituloHistoria">
+                    Orígenes e Historia
+                </h3>
+
+                <p id="textoHistoria">
+                    Descubre las raíces ancestrales de la civilización.
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="tarjeta-guarani">
+
+            <div class="imagen-contenedor">
+                <img src="images/lengua.jpg"
+                    alt="Grupo de personas compartiendo una conversación en lengua guaraní">
+            </div>
+
+            <div class="info-tarjeta">
+
+                <h3 id="tituloLengua">
+                    Lengua y Tradición
+                </h3>
+
+                <p id="textoLengua">
+                    El idioma que da voz a todo un pueblo.
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="tarjeta-guarani">
+
+            <div class="imagen-contenedor">
+                <img src="images/danza.jpg"
+                    alt="Grupo de bailarines realizando una danza tradicional paraguaya">
+            </div>
+
+            <div class="info-tarjeta">
+
+                <h3 id="tituloDanza">
+                    Danzas y Ritmos
+                </h3>
+
+                <p id="textoDanza">
+                    La expresión del alma a través del movimiento.
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="tarjeta-guarani">
+
+            <div class="imagen-contenedor">
+                <img src="images/cosmovision.jpg"
+                    alt="Paisaje natural representando la conexión espiritual de la cultura guaraní">
+            </div>
+
+            <div class="info-tarjeta">
+
+                <h3 id="tituloCosmovision">
+                    Cosmovisión
+                </h3>
+
+                <p id="textoCosmovision">
+                    La conexión sagrada con la Tierra sin Mal.
+                </p>
+
+            </div>
+
+        </article>
+
+    </section>
+
+</main>
+
+<section class="pre-footer">
+
+    <div class="pre-footer-logo">
+
+        <img src="images/Logo-2.png"
+            alt="Logo Apyka">
+
+        <h2>
+            Apyka
+        </h2>
+
+    </div>
+
+
+    <div class="pre-footer-redes">
+
+        <a href="#"
+            aria-label="Facebook">
+
+            <img src="images/facebook.png"
+                alt="Facebook">
+
+        </a>
+
+        <a href="#"
+            aria-label="Instagram">
+
+            <img src="images/instagram.png"
+                alt="Instagram">
+
+        </a>
+
+        <a href="#"
+            aria-label="YouTube">
+
+            <img src="images/youtube.png"
+                alt="YouTube">
+
+        </a>
+
+    </div>
+
+
+    <p class="pre-footer-copy">
+        Copyright © Apyka Cultural 2026
+    </p>
+
+</section>
+
+<footer class="main-footer">
+
+    <div class="footer-left">
+
+        <button class="btn-institucional"
+            id="btnInstitucional">
+
+            Información institucional
+
+        </button>
+
+    </div>
+
+    <div class="footer-right">
+
+        <a href="mailto:contacto@apyka.com"
+            class="contacto-link"
+            aria-label="Enviar correo a contacto@apyka.com">
+
+            <img src="images/mail-icon.png"
+                alt="Contacto"
+                class="mail-icon">
+
+        </a>
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
